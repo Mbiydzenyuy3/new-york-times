@@ -8,12 +8,12 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-#full-container-wrapper {
+.all-sections {
+  width: 1200px;
   margin: auto;
 }
 
-.header,
-section {
+.header {
   width: min(1440px, 100%);
   border: 3px solid orange;
   overflow: hidden;
@@ -37,6 +37,22 @@ section {
   border: 1px solid red;
 }
 
+.figure-wrapper {
+  width: 450px;
+  height: 300px;
+}
+
+.png-wrap {
+  width: 100px;
+  height: 100px;
+}
+
+figure {
+  font-size: small;
+  text-align: right;
+  width: 300px;
+}
+
 .nav {
   width: 100%;
   display: flex;
@@ -44,6 +60,53 @@ section {
   align-items: center;
   gap: 1rem;
   border: 1px solid red;
+}
+
+#section-id,
+.flex-box {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 16px 0 16px 0;
+}
+
+.navigation {
+  width: 100%;
+  padding-top: 1em;
+}
+
+.article-wrapper {
+  display: flex;
+  gap: var(--gap);
+  justify-content: space-between;
+}
+
+.article-wrapper-flex {
+  width: 70vw;
+}
+
+.box-wrapper {
+  display: flex;
+}
+
+.state-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.races-watch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polling-wrapper,
+.truimp-ratchets-wrapper,
+.election-wrap,
+.electoral-wrapper {
+  display: flex;
 }
 
 nav {
@@ -99,6 +162,15 @@ li {
 
 #container {
   display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 1200px;
+  border-top: 1px solid #474747;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.container {
+  display: grid;
   grid-template-columns: 2fr 1fr;
   width: 1200px;
   border-top: 1px solid #474747;
@@ -114,12 +186,17 @@ li {
   border: 1px solid red;
 }
 
-.content {
-  display: flex;
-}
-
 .article-image {
   width: 300px;
+  height: 300px;
+}
+
+.crisis-news-wrapper {
+  width: 30vw;
+}
+
+video {
+  width: 400px;
   height: 300px;
 }
 
@@ -127,6 +204,10 @@ img {
   object-fit: contain;
   width: 300px;
   height: auto;
+}
+
+.img-wrap {
+  width: 7rem;
 }
 
 /* .main-content {
@@ -149,9 +230,7 @@ hr {
   background-color: #cbcbcb;
   width: 100%;
 }
-.article-wrapper {
-  padding-block: 1rem;
-}
+
 .article-left-image {
   display: flex;
   gap: var(--gap);
@@ -170,23 +249,98 @@ hr {
   gap: var(--gap);
 }
 
-#ul-display-flex-col {
+#ul-display-flex-col,
+.content {
   display: flex;
   flex-direction: column;
+}
+
+.flex-row-item-end {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+}
+
+.harris-trump-wrap .nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jill-stein-wrapper,
+.polling-average-wrapper {
+  width: 22vw;
+}
+
+.election-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li {
   text-align: left;
 }
 
-.main-content,
 .footer-section-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
-h5 {
-  text-align: center;
+#ul-li-wrapper {
+  display: flex;
+  gap: 1rem;
+  height: 600px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.main-section {
+  width: 65vw;
+}
+
+.main-content {
+  display: block;
+}
+
+.main-wrapper-content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+
+.section-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 70vw;
+}
+
+.sub-content {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.crisis-news-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-trump-harris {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 1rem;
+}
+
+.harries-trump-wrapper {
+  display: flex;
+  flex-direction: column;
 }
