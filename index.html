@@ -4,86 +4,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Page</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/utility.css" />
   </head>
   <body class="overlay">
-    <section id="header">
-      <div class="nav">
-        <div class="image-wrapper">
-          <img class="logo" src="./assets/fontbolt (1).png" alt="" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="https://www.nytimes.com/"></a><b>U.S.</b></li>
-            <li>
-              <a href="https://www.nytimes.com/international/"></a>INTERNATIONAL
-            </li>
-            <li><a href="https://www.nytimes.com/ca/"></a>ESPAÑOL</li>
-            <li><a href="https://cn.nytimes.com/"></a>中文</li>
-          </ul>
-          <div>
-            <button class="cta">SUBSCRIBE FOR € 0.50/WEEK</button>
-            <button class="btn">LOGIN</button>
-          </div>
-        </nav>
-      </div>
-      <div class="nav-bar">
-        <div class="nav-date">
-          <span>Monday, October 21, 2024 </span>
-          <div class="paper-wrapper">Today’s Paper</div>
-        </div>
-        <div class="image-wrapper">
-          <h1>
-            <img src="./assets/tiles.svg" alt="" />
-          </h1>
-        </div>
+    <div id="full-container-wrapper">
+      <section class="header">
         <div>
-          <div>
-            <span>Nasdaq</span>
+          <div class="nav">
+            <nav>
+              <div class="icon-wrapper">
+                <img
+                  class="search-icon"
+                  src="./assets/search_24dp_000000_FILL0_wght400_GRAD0_opsz24 (1).svg"
+                  alt=""
+                />
+              </div>
+              <div class="ul-wrapper">
+                <ul>
+                  <li><a href="https://www.nytimes.com/"></a><b>U.S.</b></li>
+                  <li>
+                    <a href="https://www.nytimes.com/international/"></a
+                    >INTERNATIONAL
+                  </li>
+                  <li><a href="https://www.nytimes.com/ca/"></a>ESPAÑOL</li>
+                  <li><a href="https://cn.nytimes.com/"></a>中文</li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button class="cta">SUBSCRIBE FOR € 0.50/WEEK</button>
+                <button class="btn">LOGIN</button>
+              </div>
+            </nav>
           </div>
-          <div>
-            <span class="rates">-0.29%</span>
+          <div class="nav-bar">
+            <div class="nav-date">
+              <span>Monday, October 21, 2024 </span>
+              <div class="paper-wrapper">Today’s Paper</div>
+            </div>
+            <!-- <div class="image-wrapper">
+              <h1>
+                <img src="./assets/tiles.svg" alt="" />
+              </h1>
+            </div> -->
+            <div class="image-wrapper">
+              <img class="logo" src="./assets/fontbolt (1).png" alt="" />
+            </div>
+            <div class="rates-wrapper">
+              <div>
+                <span>Nasdaq</span>
+              </div>
+              <div>
+                <span class="rates">-0.29%</span>
+              </div>
+              <div class="display-none">
+                <div>
+                  <span>Dom</span>
+                </div>
+                <div>
+                  <span class="rates">-0.49%</span>
+                </div>
+              </div>
+              <div class="display-none">
+                <div>
+                  <span>Nasdaq</span>
+                </div>
+                <div>
+                  <span class="rates">+0.64%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-bar">
+            <div class="country-wrapper"><a href="">U.S</a></div>
+            <div class="world"><a href="">World</a></div>
+            <div><a href="">Business</a></div>
+            <div><a href="">Art</a></div>
+            <div><a href="">Lifestyle</a></div>
+            <div><a href="">Opinion</a></div>
+            <div><a href="">Audio</a></div>
+            <div><a href="">Gaminig</a></div>
+            <div><a href="">Cooking</a></div>
+            <div><a href="">Wirecutter</a></div>
+            <div><a href="">The Athletic</a></div>
+          </div>
+          <hr />
+          <!----Horizontal line-->
+          <hr />
+          <div class="menu-below">
+            <div class="menu-item-below">
+              <span class="live">Live</span>
+            </div>
+            <div class="menu-wrapper election">U.S Presidential Election</div>
+            <div class="menu-wrapper minute"><a href="">32m ago</a></div>
           </div>
         </div>
-      </div>
-      <div>
-        <div>
-          <span>Dom</span>
-        </div>
-        <div>
-          <span class="rates">-0.49%</span>
-        </div>
-      </div>
-      <div class="menu-bar">
-        <div class="country-wrapper"><a href="">U.S</a></div>
-        <div class="world"><a href="">World</a></div>
-        <div><a href="">Business</a></div>
-        <div><a href="">Art</a></div>
-        <div><a href="">Lifestyle</a></div>
-        <div><a href="">Opinion</a></div>
-        <div><a href="">Audio</a></div>
-        <div><a href="">Gaminig</a></div>
-        <div><a href="">Cooking</a></div>
-        <div><a href="">Wirecutter</a></div>
-        <div><a href="">The Athletic</a></div>
-      </div>
-      <div class="menu-below">
-        <div class="menu-item-below">
-          <span class="live">Live</span>
-        </div>
-        <div class="menu-wrapper election">U.S Presidential Election</div>
-        <div class="menu-wrapper minute"><a href="">32m ago</a></div>
-      </div>
-      <div class="main-wrapper">
+      </section>
+      <section class="main-wrapper">
         <div id="container">
           <div class="main-container">
             <div class="content">
               <div>
-                <nav class="year-wrapper">
-                  <img src="./assets/download (4).svg" alt="" />
-                </nav>
+                <div class="img-wrap">
+                  <img
+                    class="img-wrapper-div"
+                    src="./assets/download (4).svg"
+                    alt=""
+                  />
+                </div>
               </div>
               <div class="article-wrapper heading-wrapper">
                 <h2>
@@ -383,7 +412,7 @@
             </div>
           </div>
         </section>
-      </div>
+      </section>
       <hr />
       <!--Horizontal line-->
       <div class="article-wrapper flex">
@@ -462,362 +491,364 @@
             <div class="group-items"></div>
           </div>
         </section>
-        <div id="side-content">
-          <div class="grid-col-one">
-            <article class="article">
-              <div class="article-card">
-                <div class="article-image">
-                  <figure>
-                    <img
-                      src="./assets/08Well-Self-Help-Books-threeByTwoSmallAt2X.jpg"
-                      alt=""
-                    />
-                    <figcaption></figcaption>
-                  </figure>
-                </div>
-                <div class="article-content">
-                  <div class="article-title">
-                    <h3>
-                      Welcome to the Era of the $20,000 Family Car Insurance
-                      Bill
-                    </h3>
-                  </div>
-                  <div class="article-discription">
-                    <p>There are some ways to lessen the financial pain.</p>
-                    <span class="article-read-time">4 min read</span>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div class="grid-col-two">
-            <div class="article-wrapper">
+        <section>
+          <div id="side-content">
+            <div class="grid-col-one">
               <article class="article">
                 <div class="article-card">
                   <div class="article-image">
                     <figure>
                       <img
-                        src="./assets/15patchett-image-smallSquare252-v2.jpg"
+                        src="./assets/08Well-Self-Help-Books-threeByTwoSmallAt2X.jpg"
                         alt=""
                       />
                       <figcaption></figcaption>
                     </figure>
                   </div>
                   <div class="article-content">
-                    <h3 class="article-title">
-                      Welcome to the Era of the $20,000 Family Car Insurance
-                      Bill
-                    </h3>
-                    <span class="article-read-time">4 min read</span>
+                    <div class="article-title">
+                      <h3>
+                        Welcome to the Era of the $20,000 Family Car Insurance
+                        Bill
+                      </h3>
+                    </div>
+                    <div class="article-discription">
+                      <p>There are some ways to lessen the financial pain.</p>
+                      <span class="article-read-time">4 min read</span>
+                    </div>
                   </div>
                 </div>
               </article>
             </div>
-            <div class="article-wrapper">
-              <div class="grid-col-one">
-                <div class="article-wrapper">
-                  <article class="article">
-                    <span class="author">Opinion</span>
-                    <h3 class="article-title">
-                      Kamala Harris Has an Unexpected Ally
-                    </h3>
-                    <span class="article-read-time">7 min read</span>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
+            <div class="grid-col-two">
+              <div class="article-wrapper">
+                <article class="article">
+                  <div class="article-card">
+                    <div class="article-image">
+                      <figure>
+                        <img
+                          src="./assets/15patchett-image-smallSquare252-v2.jpg"
+                          alt=""
+                        />
+                        <figcaption></figcaption>
+                      </figure>
+                    </div>
                     <div class="article-content">
+                      <h3 class="article-title">
+                        Welcome to the Era of the $20,000 Family Car Insurance
+                        Bill
+                      </h3>
+                      <span class="article-read-time">4 min read</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article-wrapper">
+                <div class="grid-col-one">
+                  <div class="article-wrapper">
+                    <article class="article">
                       <span class="author">Opinion</span>
                       <h3 class="article-title">
                         Kamala Harris Has an Unexpected Ally
                       </h3>
                       <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image">
-                      <figure>
-                        <img
-                          src="./assets/00nw-stocks-threeByTwoSmallAt2X.jpg"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
-                    <div class="article-content">
-                      <span class="author">Patrick Heady</span>
-                      <h3 class="article-title">
-                        Kamala Harris Has an Unexpected Ally
-                      </h3>
-                      <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image author-profile-picture">
-                      <figure>
-                        <img
-                          src="./assets/00openai-microsoft-tbzq-threeByTwoSmallAt2X.jpg"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
-                    <div class="article-content">
-                      <span class="author">Patrick Heady</span>
-                      <h3 class="article-title">
-                        Kamala Harris Has an Unexpected Ally
-                      </h3>
-                      <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image author-profile-picture">
-                      <figure>
-                        <img
-                          src="./assets/08Well-Self-Help-Books-threeByTwoSmallAt2X.jpg"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
-                    <div class="article-content">
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Opinion</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image">
+                        <figure>
+                          <img
+                            src="./assets/00nw-stocks-threeByTwoSmallAt2X.jpg"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Patrick Heady</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image author-profile-picture">
+                        <figure>
+                          <img
+                            src="./assets/00openai-microsoft-tbzq-threeByTwoSmallAt2X.jpg"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Patrick Heady</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image author-profile-picture">
+                        <figure>
+                          <img
+                            src="./assets/08Well-Self-Help-Books-threeByTwoSmallAt2X.jpg"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Opinion</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image">
+                        <figure>
+                          <img
+                            src="./assets/15isaac-abt-03-bgcj-threeByTwoSmallAt2X.jpg"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article">
                       <span class="author">Opinion</span>
                       <h3 class="article-title">
                         Kamala Harris Has an Unexpected Ally
                       </h3>
                       <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image">
-                      <figure>
-                        <img
-                          src="./assets/15isaac-abt-03-bgcj-threeByTwoSmallAt2X.jpg"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article">
-                    <span class="author">Opinion</span>
-                    <h3 class="article-title">
-                      Kamala Harris Has an Unexpected Ally
-                    </h3>
-                    <span class="article-read-time">7 min read</span>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
-                    <div class="article-content">
-                      <span class="author">Patrick Heady</span>
-                      <h3 class="article-title">
-                        Kamala Harris Has an Unexpected Ally
-                      </h3>
-                      <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image author-profile-picture">
-                      <figure>
-                        <img
-                          src="./assets/00africa-19-fertility-add-pfzg-threeByTwoSmallAt2X.jpg"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="article-wrapper">
-                  <article class="article article-left-image">
-                    <div class="article-content">
-                      <span class="author">Patrick Heady</span>
-                      <h3 class="article-title">
-                        Kamala Harris Has an Unexpected Ally
-                      </h3>
-                      <span class="article-read-time">7 min read</span>
-                    </div>
-                    <div class="article-image author-profile-picture">
-                      <figure>
-                        <img
-                          src="./assets/hard-fork-album-art-mediumSquare149-v2.png"
-                          alt=""
-                        />
-                        <figcaption></figcaption>
-                      </figure>
-                    </div>
-                  </article>
-                </div>
-                <hr />
-                <!--  Horizontal line -->
-                <div class="grid-col-two">
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
                   <div class="article-wrapper">
-                    <article class="article">
-                      <div class="article-card">
-                        <div class="article-content">
-                          <span class="author"> letter</span>
-                          <h3 class="article-title">
-                            Welcome to the Era of the $20,000 Family Car
-                            Insurance Bill
-                          </h3>
-                          <span class="article-read-time">4 min read</span>
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Patrick Heady</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image author-profile-picture">
+                        <figure>
+                          <img
+                            src="./assets/00africa-19-fertility-add-pfzg-threeByTwoSmallAt2X.jpg"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="article-wrapper">
+                    <article class="article article-left-image">
+                      <div class="article-content">
+                        <span class="author">Patrick Heady</span>
+                        <h3 class="article-title">
+                          Kamala Harris Has an Unexpected Ally
+                        </h3>
+                        <span class="article-read-time">7 min read</span>
+                      </div>
+                      <div class="article-image author-profile-picture">
+                        <figure>
+                          <img
+                            src="./assets/hard-fork-album-art-mediumSquare149-v2.png"
+                            alt=""
+                          />
+                          <figcaption></figcaption>
+                        </figure>
+                      </div>
+                    </article>
+                  </div>
+                  <hr />
+                  <!--  Horizontal line -->
+                  <div class="grid-col-two">
+                    <div class="article-wrapper">
+                      <article class="article">
+                        <div class="article-card">
+                          <div class="article-content">
+                            <span class="author"> letter</span>
+                            <h3 class="article-title">
+                              Welcome to the Era of the $20,000 Family Car
+                              Insurance Bill
+                            </h3>
+                            <span class="article-read-time">4 min read</span>
+                          </div>
                         </div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="article-wrapper">
-                    <article class="article">
-                      <div class="article-card">
-                        <div class="article-content">
-                          <span class="author"> letter</span>
-                          <h3 class="article-title">
-                            Welcome to the Era of the $20,000 Family Car
-                            Insurance Bill
-                          </h3>
-                          <span class="article-read-time">4 min read</span>
+                      </article>
+                    </div>
+                    <div class="article-wrapper">
+                      <article class="article">
+                        <div class="article-card">
+                          <div class="article-content">
+                            <span class="author"> letter</span>
+                            <h3 class="article-title">
+                              Welcome to the Era of the $20,000 Family Car
+                              Insurance Bill
+                            </h3>
+                            <span class="article-read-time">4 min read</span>
+                          </div>
                         </div>
-                      </div>
-                    </article>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <div class="article-wrapper">
+                      <article class="article article-left-image">
+                        <div class="article-content">
+                          <span class="author">Opinion</span>
+                          <h3 class="article-title">
+                            Kamala Harris Has an Unexpected Ally
+                          </h3>
+                          <span class="article-read-time">7 min read</span>
+                        </div>
+                        <div class="article-image">
+                          <figure>
+                            <img
+                              src="./assets/12TOOTH-STRENGTH-threeByTwoSmallAt2X.jpg"
+                              alt=""
+                            />
+                            <figcaption></figcaption>
+                          </figure>
+                        </div>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <div class="article-wrapper">
+                      <article class="article article-left-image">
+                        <div class="article-content">
+                          <span class="author">Opinion</span>
+                          <h3 class="article-title">
+                            Kamala Harris Has an Unexpected Ally
+                          </h3>
+                          <span class="article-read-time">7 min read</span>
+                        </div>
+                        <div class="article-image">
+                          <figure>
+                            <img
+                              src="./assets/17a2_insider-threeByTwoSmallAt2X.jpg"
+                              alt=""
+                            />
+                            <figcaption></figcaption>
+                          </figure>
+                        </div>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <div class="article-wrapper">
+                      <article class="article article-left-image">
+                        <div class="article-content">
+                          <span class="author">Opinion</span>
+                          <h3 class="article-title">
+                            Kamala Harris Has an Unexpected Ally
+                          </h3>
+                          <span class="article-read-time">7 min read</span>
+                        </div>
+                        <div class="article-image">
+                          <figure>
+                            <img
+                              src="./assets/00africa-19-fertility-4-kbcg-threeByTwoSmallAt2X.jpg"
+                              alt=""
+                            />
+                            <figcaption></figcaption>
+                          </figure>
+                        </div>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <div class="article-wrapper">
+                      <article class="article article-left-image">
+                        <div class="article-content">
+                          <span class="author">Opinion</span>
+                          <h3 class="article-title">
+                            Kamala Harris Has an Unexpected Ally
+                          </h3>
+                          <span class="article-read-time">7 min read</span>
+                        </div>
+                        <div class="article-image">
+                          <figure>
+                            <img
+                              src="./assets/21della-volpe-gqzw-threeByTwoSmallAt2X.jpg"
+                              alt=""
+                            />
+                            <figcaption></figcaption>
+                          </figure>
+                        </div>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <div class="article-wrapper">
+                      <article class="article article-left-image">
+                        <div class="article-content">
+                          <span class="author-wrapper">Opinion</span>
+                          <h3 class="article-title">
+                            Kamala Harris Has an Unexpected Ally
+                          </h3>
+                          <span class="article-read-time-wrapper"
+                            >7 min read</span
+                          >
+                        </div>
+                        <div class="article-image">
+                          <figure>
+                            <img
+                              src="./assets/20farm-art-HP-FADER-01-pmtc-threeByTwoMediumAt2X.jpg"
+                              alt=""
+                            />
+                            <figcaption></figcaption>
+                          </figure>
+                        </div>
+                      </article>
+                    </div>
+                    <hr />
+                    <!--  Horizontal line -->
+                    <!-- New section for more news -->
                   </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <div class="article-wrapper">
-                    <article class="article article-left-image">
-                      <div class="article-content">
-                        <span class="author">Opinion</span>
-                        <h3 class="article-title">
-                          Kamala Harris Has an Unexpected Ally
-                        </h3>
-                        <span class="article-read-time">7 min read</span>
-                      </div>
-                      <div class="article-image">
-                        <figure>
-                          <img
-                            src="./assets/12TOOTH-STRENGTH-threeByTwoSmallAt2X.jpg"
-                            alt=""
-                          />
-                          <figcaption></figcaption>
-                        </figure>
-                      </div>
-                    </article>
-                  </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <div class="article-wrapper">
-                    <article class="article article-left-image">
-                      <div class="article-content">
-                        <span class="author">Opinion</span>
-                        <h3 class="article-title">
-                          Kamala Harris Has an Unexpected Ally
-                        </h3>
-                        <span class="article-read-time">7 min read</span>
-                      </div>
-                      <div class="article-image">
-                        <figure>
-                          <img
-                            src="./assets/17a2_insider-threeByTwoSmallAt2X.jpg"
-                            alt=""
-                          />
-                          <figcaption></figcaption>
-                        </figure>
-                      </div>
-                    </article>
-                  </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <div class="article-wrapper">
-                    <article class="article article-left-image">
-                      <div class="article-content">
-                        <span class="author">Opinion</span>
-                        <h3 class="article-title">
-                          Kamala Harris Has an Unexpected Ally
-                        </h3>
-                        <span class="article-read-time">7 min read</span>
-                      </div>
-                      <div class="article-image">
-                        <figure>
-                          <img
-                            src="./assets/00africa-19-fertility-4-kbcg-threeByTwoSmallAt2X.jpg"
-                            alt=""
-                          />
-                          <figcaption></figcaption>
-                        </figure>
-                      </div>
-                    </article>
-                  </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <div class="article-wrapper">
-                    <article class="article article-left-image">
-                      <div class="article-content">
-                        <span class="author">Opinion</span>
-                        <h3 class="article-title">
-                          Kamala Harris Has an Unexpected Ally
-                        </h3>
-                        <span class="article-read-time">7 min read</span>
-                      </div>
-                      <div class="article-image">
-                        <figure>
-                          <img
-                            src="./assets/21della-volpe-gqzw-threeByTwoSmallAt2X.jpg"
-                            alt=""
-                          />
-                          <figcaption></figcaption>
-                        </figure>
-                      </div>
-                    </article>
-                  </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <div class="article-wrapper">
-                    <article class="article article-left-image">
-                      <div class="article-content">
-                        <span class="author-wrapper">Opinion</span>
-                        <h3 class="article-title">
-                          Kamala Harris Has an Unexpected Ally
-                        </h3>
-                        <span class="article-read-time-wrapper"
-                          >7 min read</span
-                        >
-                      </div>
-                      <div class="article-image">
-                        <figure>
-                          <img
-                            src="./assets/20farm-art-HP-FADER-01-pmtc-threeByTwoMediumAt2X.jpg"
-                            alt=""
-                          />
-                          <figcaption></figcaption>
-                        </figure>
-                      </div>
-                    </article>
-                  </div>
-                  <hr />
-                  <!--  Horizontal line -->
-                  <!-- New section for more news -->
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <!-- New section for more news -->
         <section class="news-section">
           <div class="container">
@@ -2664,17 +2695,17 @@
             </div>
           </div>
         </section>
-        <section class="footer-section">
+        <section class="footer-section-wrapper">
           <div class="main-content">
-            <div class="image-wrapper">
-              <img src="./assets/fontbolt (1).png" alt="" class="logo" />
-            </div>
-            <div class="ul-li-wrapper">
-              <div>
+            <div id="ul-li-wrapper">
+              <div class="image-wrapper">
+                <img src="./assets/fontbolt (1).png" alt="" class="logo" />
+              </div>
+              <div class="li-wrapper">
                 <span class="span-wrapper">
                   <h5><b>NEWS</b></h5>
                 </span>
-                <ul>
+                <ul id="ul-display-flex-col">
                   <li><a href="">Home Page</a></li>
                   <li><a href=""> U.S</a></li>
                   <li><a href="">World</a></li>
@@ -2697,7 +2728,7 @@
                 <span class="span-wrapper">
                   <h5><b>ARTS</b></h5>
                 </span>
-                <ul>
+                <ul id="ul-display-flex-col">
                   <li><a href="">Book Review</a></li>
                   <li><a href="">Best Sellers Books List</a></li>
                   <li><a href="">Dance</a></li>
@@ -2713,7 +2744,7 @@
                 <span class="span-wrapper">
                   <h5><b></b></h5>
                 </span>
-                <ul>
+                <ul id="ul-display-flex-col">
                   <li><a href="">Health </a></li>
                   <li><a href="">Well </a></li>
                   <li><a href="">Food</a></li>
@@ -2728,7 +2759,7 @@
               </div>
               <div>
                 <span class="span-wrapper"><h5>OPINION</h5></span>
-                <ul>
+                <ul id="ul-display-flex-col">
                   <li><a href="">Today's Opinion </a></li>
                   <li><a href="">Columnist </a></li>
                   <li><a href="">Editorial</a></li>
@@ -2742,7 +2773,7 @@
               </div>
               <div>
                 <span class="span-wrapper"><h5>MORE</h5></span>
-                <ul>
+                <ul id="ul-display-flex-col">
                   <li><a href="">Audio </a></li>
                   <li><a href="">Games </a></li>
                   <li><a href="">Cooking</a></li>
@@ -2833,6 +2864,6 @@
           </div>
         </section>
       </div>
-    </section>
+    </div>
   </body>
 </html>
