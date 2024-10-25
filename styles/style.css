@@ -15,7 +15,7 @@ body {
 }
 
 .project-container {
-  margin-inline: 3rem;
+  margin-inline: 4rem;
 }
 
 a,
@@ -84,6 +84,11 @@ ul,
   gap: 1rem;
   border-bottom: 1px solid #d4d4d4;
   padding-block: 1rem;
+}
+
+.article-advertisement {
+  display: flex;
+  justify-content: center;
 }
 
 .article {
