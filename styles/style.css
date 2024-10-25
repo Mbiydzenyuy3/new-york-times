@@ -1,0 +1,473 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* .all-sections {
+  width: 1200px;
+  margin: auto;
+} */
+
+.header {
+  width: min(1200px, 100%);
+  /* height: 164px; */
+  /* border: 3px solid orange; */
+  overflow: hidden;
+  z-index: 1;
+  /* position: fixed; */
+  background-color: #fff;
+}
+
+.harris-trump-wrap {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  /* width: 70vw; */
+}
+
+.read-span {
+  font-size: 10px;
+}
+
+.grid-col-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-wrapper > .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.icon-wrapper > .search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.img-wrapper-div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.figure-wrapper {
+  width: 450px;
+  height: 300px;
+}
+
+.png-wrap {
+  width: 100px;
+  height: 100px;
+}
+
+figure {
+  font-size: small;
+  text-align: right;
+  width: 200px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid red;
+}
+
+#section-id,
+.flex-box {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 200px);
+  gap: 3.5rem;
+  padding: 16px 0 16px 0;
+}
+
+.main-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.side-content-one {
+  width: 40%;
+  background-color: orange;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  justify-content: space-between;
+  /* width: 22vw; */
+}
+
+/* .article-wrapper-flex {
+  width: 70vw;
+} */
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-wrapper {
+  display: flex;
+}
+
+.state-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.races-watch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.election-wrap,
+.electoral-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* width: 18vw; */
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 16px 0;
+  border: 1px solid red;
+  padding: 16px;
+}
+
+.nav-bar,
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.menu-below {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.image-flex {
+  width: 40vw;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+hr {
+  color: #000;
+}
+
+.display-none {
+  display: none;
+}
+
+ul,
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px solid red; */
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.full-container-wrapper {
+  display: flex;
+}
+
+/* .li-wrapper {
+  display: flex;
+} */
+
+.image-wrapper .logo {
+  width: 300px;
+}
+
+li {
+  list-style-type: none;
+  /* border: 1px solid red; */
+  text-align: left;
+  font-size: 12px;
+}
+
+.main-content {
+  display: flex;
+  gap: 1rem;
+  border-top: 1px solid #474747;
+  border: 1px solid red;
+}
+
+.main-content-one {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid red;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section-group-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.side-span-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .footer-flex-wrapper {
+  width: 15vw;
+} */
+
+#all-section-wrapper {
+  border-top: 1px solid #474747;
+  border: 1px solid red;
+  z-index: -1;
+}
+
+.container-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  border-top: 1px solid #474747;
+  margin: auto;
+  gap: var(--gap);
+  border: 1px solid red;
+}
+
+.article-image {
+  width: 300px;
+  height: 300px;
+}
+
+/* .side-content {
+  background-color: orange;
+} */
+
+.crisis-news-wrapper {
+  width: 30vw;
+}
+
+video {
+  width: 400px;
+  height: 300px;
+}
+
+.span-img-wrap {
+  width: 24px;
+  height: 16px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* .img-wrap {
+  width: 7rem;
+} */
+
+/* .main-content {
+  background-color: blue;
+} */
+
+:root {
+  --gap: 1rem;
+}
+.grid-col-two {
+  display: flex;
+  gap: var(--gap);
+  width: 30vw;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #cbcbcb;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.article-left-image {
+  display: flex;
+  gap: var(--gap);
+  justify-content: center;
+}
+
+.next-section {
+  margin-top: 2rem;
+}
+
+.new-section-wrap,
+.main-section-one {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.more-news-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.athletic-featured-post {
+  display: flex;
+  gap: var(--gap);
+}
+
+.ul-display-flex-col,
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .ul-li-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+} */
+
+#logo,
+.logo {
+  width: 300px;
+  height: 64px;
+}
+
+.flex-row-item-end {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+}
+
+.harris-trump-wrap .nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jill-stein-wrapper,
+.polling-average-wrapper {
+  width: 22vw;
+}
+
+.election-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  text-align: left;
+}
+
+.footer-section-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-flex-wrapper {
+  display: flex;
+}
+
+.footer-wrapper {
+  width: 200px;
+}
+
+.ul-li-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 600px;
+  width: 70vw;
+}
+
+/* .main-section {
+  width: 70vw;
+} */
+
+.main-wrapper-content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 70vw; */
+}
+
+.section-wrapper {
+  display: flex;
+  gap: 2rem;
+  /* width: 70vw; */
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  /* width: 70vw; */
+}
+
+.crisis-news-wrapper,
+.sub-content {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.group-trump-harris {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 1rem;
+}
+
+.harries-trump-wrapper {
+  display: flex;
+  flex-direction: column;
+}
