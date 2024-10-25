@@ -121,11 +121,6 @@ ul,
   padding-block: 1.5rem;
 }
 
-.flex-span-wrapper-icons img {
-  width: 18px;
-  height: auto;
-}
-
 /* Side content styles */
 
 .grid-col-two {
@@ -172,4 +167,11 @@ hr {
   padding-left: 1rem;
   margin-top: 24px;
   border-left: 1px solid #e7e6e6;
+}
+
+/* footer styles */
+
+.flex-span-wrapper > .span-img-wrap {
+  width: 18px;
+  height: auto;
 }
