@@ -100,6 +100,13 @@ ul,
   font-size: 1rem;
 }
 
+.span-set-flex {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
 .article-read-time {
   font-size: 12px;
   font-weight: 500;
