@@ -69,8 +69,7 @@ ul,
 }
 
 .article-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
   align-items: center;
   gap: 1rem;
   border-bottom: 1px solid #d4d4d4;
@@ -164,7 +163,7 @@ hr {
 
 /* footer styles */
 
-.flex-span-wrapper > .span-img-wrap {
+/* .flex-span-wrapper > .span-img-wrap {
   width: 18px;
   height: auto;
-}
+} */
