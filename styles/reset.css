@@ -120,6 +120,11 @@ video {
   aspect-ratio: 16/9;
 }
 
+.logo {
+  width: 500px;
+  height: auto;
+}
+
 ol,
 ul {
   list-style: none;
