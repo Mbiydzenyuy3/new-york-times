@@ -32,7 +32,7 @@ ul,
 /* ---------------------------------------------------------------- */
 .header {
   width: min(1200px, 100%);
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   border-bottom: 6px solid black;
   border-style: double;
